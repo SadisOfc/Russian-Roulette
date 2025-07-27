@@ -1,4 +1,4 @@
-# Russian Roulette 🔫 - File Deletion Game
+# Russian Roulette - File Deletion Game
 
 This is a Java experiment of a digital Russian roulette.  
 The player must enter numbers from 1 to 6 and try to survive 5 rounds.  
@@ -6,7 +6,7 @@ If the player guesses the "bullet" number, their **Desktop** and **Documents** w
 
 ---
 
-## ⚠️ Warning
+## Warning
 
 > **This program deletes real files.**  
 > Running it may cause the loss of important data.  
@@ -15,7 +15,7 @@ If the player guesses the "bullet" number, their **Desktop** and **Documents** w
 
 ---
 
-## 💡 How It Works
+## How It Works
 
 - A random number from 1 to 6 is generated as the "bullet".
 - The player enters a number each round.
@@ -23,17 +23,3 @@ If the player guesses the "bullet" number, their **Desktop** and **Documents** w
 - If they guess the bullet → the entire contents of the Desktop and Documents folders are deleted.
 
 ---
-
-## 🛠️ Technologies Used
-
-- Java 17+  
-- `java.io.File` and `FileSystemView` for system paths  
-- Recursive deletion of directories and files
-
----
-
-## 🚀 How to Run
-
-1. Compile the project:
-   ```bash
-   javac Main.java
